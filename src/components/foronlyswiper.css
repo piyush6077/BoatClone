@@ -1,0 +1,39 @@
+ 
+.custom-swiper-column .swiper-wrapper {
+    display: flex;
+    flex-direction: column; /* This sets the direction to column */
+    gap:10px;
+}
+
+.SwiperSlide{
+    width:100% !important;
+}
+
+/* Custom width for Swiper navigation buttons */
+.swiper-button-next,
+.swiper-button-prev {
+  width: 30px; /* Adjust width as needed */
+  height: 30px; /* Adjust height as needed */
+  background-color: rgba(22, 22, 22, 0.5); /* Add custom background if needed */
+  border-radius: 50%; /* Make them circular */
+}
+
+.swiper-button-prev:after{
+    font-size: 10px ;
+}
+
+.swiper-button-next:after{
+    font-size: 10px ;
+}
+
+
+/* Position adjustments */
+.swiper-button-next {
+  top:300px;
+  right: 10px; /* Adjust horizontal position */
+}
+
+.swiper-button-prev {
+    top:300px;
+    left: 10px; /* Adjust horizontal position */
+}
